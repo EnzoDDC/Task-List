@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Tema */
+:root {
+  color-scheme: light dark;
+  --bg-color: light-dark(white, black);
+  --primary-color: light-dark(#6366f1, #c1c2f0);
+  --primary-color-darker: light-dark(#4849ab, #9c9cc0);
+  --text-color: light-dark(#262626, #ededed);
+  --text-btn-color: light-dark(#ededed, #262626);
+  --border-color: light-dark(#f3f4f6, #292929);
+  --content-width: 88rem;
+  --bc-color: light-dark(white, gray);
+  --task-text-color: light-dark(white, #292929 );
+  --bd-color: light-dark(#262626, rgb(190, 184, 184));
+}

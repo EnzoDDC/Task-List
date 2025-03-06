@@ -1,0 +1,212 @@
+
+#task-list{
+    overflow: auto;
+    height: 15rem;
+    width: 95%;
+    background-color: var(--border-color);
+    margin: 0 auto;
+}
+
+#main-title{
+   font-size: 8rem;
+   color: var(--primary-color); 
+   text-align: center;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+}
+
+#bar-task{
+    border-radius: 0.375rem;
+    width: 50%;
+    border-width: 1px;
+    border-color: black;
+    border-radius: var(--primary-color-darker);
+    background-color: var(--bc-color);
+}
+
+.task-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-delete-btn{
+    width: 0 auto;
+    height: 0 auto;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--bd-color);
+    transition: all 0.2s ease-in-out
+}
+
+.task-check-btn{
+    width: 0 auto;
+    height: 0 auto;
+    padding: 1rem;
+    background-color: var(--task-text-color);
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--bd-color);
+    transition: all 0.2s ease-in-out
+}
+
+.task-add-btn{
+    width: auto;
+    height: auto;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+    background-color: purple;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+::placeholder{
+    color: var(--text-color);
+}
+
+#error-text{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.task-text{
+    height: 0 auto;
+    padding: 0.5rem;
+    overflow-wrap: break-word;
+    background-color: var(--task-text-color);
+    width: 100%;
+    border-width: 1px;
+    border-color: var(--bd-color);
+}
+
+.task-del-text{
+    width: 0 auto;
+    height: auto 0;
+    padding: 0.5rem;
+    background-color: var(--task-text-color);
+    color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--bd-color);
+}
+
+#task-counter{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 3rem;
+    width: 95%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--bd-color);
+    border-radius: var(--primary-color-darker);
+    background-color: var(--task-text-color);
+    border-radius: 0.368rem;
+}
+
+#total-task{
+    height: 50%;
+    width: 17%;
+    background-color: purple;
+    border-radius: 0.375rem;
+}
+
+#completed-task{
+    height: 50%;
+    width: 29%;
+    background-color: rgb(3, 231, 3);
+    border-radius: 0.375rem;
+}
+
+#incompleted-task{
+    height: 50%;
+    width: 35%;
+    background-color: rgb(230, 11, 11);
+    border-radius: 0.375rem;
+}
+
+.task-add-btn:active{
+    background-color: pink;
+}
+
+.task-check-btn:active{
+    background-color: green;
+}
+
+.task-delete-btn:active{
+    background-color: rgb(107, 4, 4);
+}
+
+@media (min-width: 768px) {
+    #task-counter{
+        height: 3rem;
+        width: 50rem;
+    }
+
+    .task-del-text{
+        width: 100%;
+    }
+
+    .task-text{
+        width: 100%;
+    }
+
+    #task-list{
+        width: 50rem;
+        height: 15rem;
+    }
+
+    #incompleted-task{
+        width: 45%;
+    }
+
+    #completed-task{
+        width: 27%;
+    }
+
+    #total-task{
+        width: 25%;
+    }
+
+    .task-delete-btn{
+        width: 0 auto;
+        height: 0 auto;
+    }
+    
+    .task-add-btn:active{
+        background-color: var(--add-btn-color);
+    }
+
+    .task-check-btn:active{
+        background-color: green;
+    }
+
+    .task-delete-btn:active{
+        background-color: rgb(107, 4, 4);
+    }
+}
+
+@media (min-width: 1024px) {
+    #main{
+        flex-direction: row;
+    }
+
+    .task-add-btn:hover{
+        background-color: rgb(202, 2, 185);
+    }
+
+    .task-check-btn:hover{
+        background-color: green;
+    }
+
+    .task-delete-btn:hover{
+        background-color: rgb(128, 5, 5);
+    }
+} 
