@@ -5,7 +5,7 @@ la web esta adaptada a claro y modo oscuro
 
 <h3>Características</h3>
 <ul>
-    <li>Añadir Tareas: Permite agregar nuevas tareas a través de un formulario.</li>
+    <li>Añadir Tareas: Permite agregar nuevas tareas.</li>
     <li>Marcar como Completada: Las tareas pueden ser marcadas como completadas, lo que les aplica un estilo visual diferente (tachado).</li>
     <li>Eliminar Tareas: Permite eliminar tareas individuales.</li>
     <li>Contadores: Muestra el número de tareas pendientes, completadas y el total de tareas.</li>
