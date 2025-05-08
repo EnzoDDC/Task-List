@@ -1,6 +1,6 @@
 <h1>Página Web de Lista de Tareas</h1>
 <h2>Descripción</h2>
-Esta es una aplicación web construida con HTML5 y CSS. Permite a los usuarios agregar, marcar como completadas y eliminar tareas de una lista. El diseño es responsivo
+Esta es una aplicación web construida con HTML5, CSS y JAVASCRIPT. Permite a los usuarios agregar, marcar como completadas y eliminar tareas de una lista. El diseño es responsivo
 la web esta adaptada a claro y modo oscuro
 
 <h3>Características</h3>
@@ -17,6 +17,7 @@ la web esta adaptada a claro y modo oscuro
 <ul>
     <li>HTML5: Estructura y contenido de la página.</li>
     <li>CSS: Estilos y diseño visual</li>
+    <li>JAVASCRIPT: Funcionalidad</li>
 </ul>
 
 Link A la pagina web: https://enzoddc.github.io/Task-List/
